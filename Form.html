@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/form.css" rel="stylesheet" />
+</head>
+<body>
+    <a href="Index.html">Front Page</a>
+    <a href="Mike.html">Mikes-Resume</a>
+    <h1> Please fill out this form so I may contact you. Thank you and have a great day!</h1>
+    <div>
+        <label for="reasonforcontactingme"> Reason for contact </label>
+        <select name="tour" id="tour" class="required" > 
+            <option>Make a selection</option>
+            <option value="hire">Hire</option>
+            <option value="toknowme">To Know Me</option>
+            <option value="noreason">No Reason</option>
+        </select>
+    </div>
+    <div class="form-field">
+        <label for="first name"> First Name </label>
+        <input class="form-input" type="text" name="first name" required autofocus />
+    </div>
+    <div class="form-field">
+        <label for="last name"> Last Name </label>
+        <input class="form-input" type="text" name="last name" id="lastname" />
+    </div>
+    <div class="form-field"> 
+        <label for="email"> Email </label>
+        <input class="form-input" type="email" name="email" id="email" required />
+    </div>
+    <div class="form-input">
+        <label for="number"> Phone Number </label>
+        <input class="form-input" type="tel" name="number" id="number"/>
+    </div>
+    <p>
+        <textarea row="3" name="messeage" cols="90" maxlength="2000" wrap="hard"></textarea>
+        <div class="form-field" action="formsub.php">
+            <button type="submit" class="submit"> Submit </button>
+        </div>
+    </p>
+</body>
+</html>
+<p> I have what it takes to be a great web developer</p>
+<a href="Index.html" class="btn btn-primary" role="button"> Click Me </a>
